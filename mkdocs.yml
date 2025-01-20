@@ -31,3 +31,5 @@ theme:
     - navigation.tabs.sticky
 nav:
   - Ínicio: index.md
+  - Introdução: intro.md
+  - Desenvolvimento: dev.md
