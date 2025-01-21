@@ -1,0 +1,1 @@
+No Brasil, há mais celulares do que computadores, e muitas pessoas navegam por notebooks ou desktops sem encontrar problemas. Porém, ao acessar o mesmo conteúdo pelo celular, é possível que surjam barreiras, algo que não deveria ocorrer. A experiência de navegação acessível pode variar bastante dependendo do fabricante do celular ou do navegador utilizado.

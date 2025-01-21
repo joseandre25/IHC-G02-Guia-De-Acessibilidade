@@ -8,14 +8,14 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Modo Escuro
-      primary: green
-      accent: #8ECDDD
+      primary: #03161A
+      accent: black
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Modo Claro  
-      primary: green
-      accent: #8ECDDD
+      primary: #03161A
+      accent: black
   font:
     text: Roboto
   language: pt
@@ -32,4 +32,14 @@ theme:
 nav:
   - Ínicio: index.md
   - Introdução: intro.md
-  - Desenvolvimento: dev.md
+  - Desenvolvimento: 
+    - Navegação em celular e computador: nav_cel_pc.md
+    - Navegação 100% por teclado: nav_tec.md
+    - Foco Visível: foco_vis.md
+    - Pausar, parar ou ocultar conteúdo: ppo.md
+    - Áreas de clique: area_clique.md
+    - Design responsivo: des_res.md
+    - Uso da cor: uso_cor.md
+    - Contraste da cor: contr_cor.md
+    - Alto contraste e tamanho da fonte: ac_tam.md
+    - Ampliação da tela: ampl.md
