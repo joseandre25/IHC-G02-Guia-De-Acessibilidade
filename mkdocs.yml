@@ -20,25 +20,20 @@ theme:
     text: Roboto
   language: pt
   features:
-    - content.code.annotate
-    - content.tabs.link
-    - header.autohide
-    - navigation.instant
-    - navigation.sections
     - navigation.tabs
+    - navigation.sections
+    - toc.integrate
     - navigation.top
-    - navigation.tracking
-    - navigation.tabs.sticky
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
 nav:
   - Introdução: index.md
   - Desenvolvimento: 
-    - Navegação em celular e computador: nav_cel_pc.md
-    - Navegação 100% por teclado: nav_tec.md
-    - Foco Visível: foco_vis.md
-    - Pausar, parar ou ocultar conteúdo: ppo.md
-    - Áreas de clique: area_clique.md
-    - Design responsivo: des_res.md
-    - Uso da cor: uso_cor.md
-    - Contraste da cor: contr_cor.md
-    - Alto contraste e tamanho da fonte: ac_tam.md
-    - Ampliação da tela: ampl.md
+    - Acessibilidade em Navegação e Design: topics/grupo1.md
+    - Semântica e Estrutura da Página: topics/grupo2.md
+    - Testes, Checklists e Recursos: topics/grupo3.md
+    - Conteúdo e Usabilidade em Textos: topics/grupo4.md
+    - Formulários, Modais e Feedback de Erros: topics/grupo5.md
