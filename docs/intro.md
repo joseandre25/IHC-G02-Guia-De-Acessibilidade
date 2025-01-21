@@ -1,1 +1,0 @@
-Falar sobre IHC, WCAG
