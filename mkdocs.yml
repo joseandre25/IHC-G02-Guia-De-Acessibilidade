@@ -30,8 +30,7 @@ theme:
     - navigation.tracking
     - navigation.tabs.sticky
 nav:
-  - Ínicio: index.md
-  - Introdução: intro.md
+  - Introdução: index.md
   - Desenvolvimento: 
     - Navegação em celular e computador: nav_cel_pc.md
     - Navegação 100% por teclado: nav_tec.md
