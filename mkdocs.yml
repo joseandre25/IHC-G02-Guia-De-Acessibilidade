@@ -1,10 +1,14 @@
 site_name: Guia de Acessibilidade Digital
+
+repo_name: "Guia de acessiblidade"
+repo_url: "https://github.com/joseandre25/IHC-G02-Guia-De-Acessibilidade"
+
 theme:
-  name: material
+  name: material  
   icon:
     repo: fontawesome/brands/git-alt
   palette:
-    - scheme: default 
+    - scheme: default  
       toggle:
         icon: material/toggle-switch-off-outline
         name: Modo Escuro
@@ -16,8 +20,10 @@ theme:
         name: Modo Claro  
       primary: #03161A
       accent: black
+      
   font:
     text: Roboto
+    code: "sans-serif"
   language: pt
   features:
     - navigation.tabs
