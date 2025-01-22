@@ -1,8 +1,9 @@
 Somos o grupo 2 de Interação Humano Computador (IHC), e com base nos estudos e aulas ministradas pela docente Rejane Maria da Costa Figueiredo durante o semestre 2024.2 e iremos apresentar nosso guia de acessibilidade de bolso.
 
 ## Guia de Bolso de Acessibilidade
-Este guia foi criado para ajudar desenvolvedores, designers e equipes de produto a criar experiências digitais mais acessíveis para todos. Ele aborda tópicos fundamentais como navegação, design responsivo, acessibilidade em conteúdo, organizados de maneira prática e objetiva. Nosso objetivo é promover boas práticas que garantam inclusão e usabilidade, independentemente das limitações do usuário.
+Este guia foi criado para ajudar desenvolvedores, designers e equipes de produto a criar experiências digitais mais acessíveis para todos. Ele aborda tópicos fundamentais como navegação, design responsivo, acessibilidade em conteúdo, organizados de maneira prática e objetiva. 
 
+Nosso objetivo é promover boas práticas que garantam inclusão e usabilidade, independentemente das limitações do usuário.
 
 ## Autores
 

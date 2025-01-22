@@ -8,15 +8,17 @@ theme:
   icon:
     repo: fontawesome/brands/git-alt
   palette:
-    - scheme: default  
+    - media: "(prefers-color-scheme: light)"
+      scheme: light  
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/weather-night
         name: Modo Escuro
       primary: #03161A
       accent: black
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-sunny
         name: Modo Claro  
       primary: #03161A
       accent: black
@@ -28,18 +30,31 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
-    - toc.integrate
+    - navigation.indexes
+    - navigation.instant
     - navigation.top
+    - toc.integrate
     - search.suggest
     - search.highlight
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+    - content.tabs.pills
+    - navigation.expand
+    - navigation.tracking
+    - content.code.annotate
+    - content.code.highlight
+    - content.code.linenumbers
+    - content.footnotes
+    - content.heading.permalinks
+    - content.heading.anchor
+    - content.heading.toc
 nav:
   - Introdução: index.md
-  - Desenvolvimento: 
+  - Guia: 
     - Acessibilidade em Navegação e Design: topics/grupo1.md
     - Semântica e Estrutura da Página: topics/grupo2.md
     - Testes, Checklists e Recursos: topics/grupo3.md
     - Conteúdo e Usabilidade em Textos: topics/grupo4.md
     - Formulários, Modais e Feedback de Erros: topics/grupo5.md
+  - Heurísticas: heuristicas.md
