@@ -51,7 +51,7 @@ theme:
     - content.heading.toc
 nav:
   - Introdução: index.md
-  - Guia: 
+  - Desenvolvimento: 
     - Acessibilidade em Navegação e Design: topics/grupo1.md
     - Semântica e Estrutura da Página: topics/grupo2.md
     - Testes, Checklists e Recursos: topics/grupo3.md
