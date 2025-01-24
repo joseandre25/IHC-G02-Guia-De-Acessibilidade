@@ -53,7 +53,7 @@ nav:
   - Introdução: index.md
   - Desenvolvimento: 
     - Acessibilidade em Navegação e Design: topics/grupo1.md
-    - Semântica e Estrutura da Página: topics/grupo2.md
+    - Semântica, Estrutura da Página e HTML: topics/grupo2.md
     - Testes, Checklists e Recursos: topics/grupo3.md
     - Conteúdo e Usabilidade em Textos: topics/grupo4.md
     - Formulários, Modais e Feedback de Erros: topics/grupo5.md
