@@ -32,6 +32,7 @@ theme:
 nav:
   - Introdução: index.md
   - Desenvolvimento: 
+    - HTML,Semântica e estrutura da página: grupo2 /semantica.md
     - Navegação em celular e computador: nav_cel_pc.md
     - Navegação 100% por teclado: nav_tec.md
     - Foco Visível: foco_vis.md
@@ -42,3 +43,8 @@ nav:
     - Contraste da cor: contr_cor.md
     - Alto contraste e tamanho da fonte: ac_tam.md
     - Ampliação da tela: ampl.md
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - toc
