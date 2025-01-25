@@ -3,9 +3,20 @@ site_name: Guia de Acessibilidade Digital
 repo_name: "Guia de acessiblidade"
 repo_url: "https://github.com/joseandre25/IHC-G02-Guia-De-Acessibilidade"
 
+nav:
+  - Introdução: index.md
+  - Desenvolvimento: 
+    - Acessibilidade em Navegação e Design: topics/grupo1.md
+    - Semântica, Estrutura da Página e HTML: topics/grupo2.md
+    - Testes, Checklists e Recursos: topics/grupo3.md
+    - Conteúdo e Usabilidade em Textos: topics/grupo4.md
+    - Formulários, Modais e Feedback de Erros: topics/grupo5.md
+  - Heurísticas: heuristicas.md
+
 theme:
   name: material  
   icon:
+    set: material
     repo: fontawesome/brands/git-alt
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -49,12 +60,9 @@ theme:
     - content.heading.permalinks
     - content.heading.anchor
     - content.heading.toc
-nav:
-  - Introdução: index.md
-  - Desenvolvimento: 
-    - Acessibilidade em Navegação e Design: topics/grupo1.md
-    - Semântica, Estrutura da Página e HTML: topics/grupo2.md
-    - Testes, Checklists e Recursos: topics/grupo3.md
-    - Conteúdo e Usabilidade em Textos: topics/grupo4.md
-    - Formulários, Modais e Feedback de Erros: topics/grupo5.md
-  - Heurísticas: heuristicas.md
+
+markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: false
+      clickable_checkbox: true

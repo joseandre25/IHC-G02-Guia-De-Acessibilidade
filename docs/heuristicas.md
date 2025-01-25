@@ -6,7 +6,7 @@
 
 ## 1. Visibilidade do status do sistema
 
-O usuário precisa  estar completamente informado do que está acontecendo, por meio de feedback imediato da interface.
+O usuário precisa estar completamente informado do que está acontecendo, por meio de feedback imediato da interface.
 
 Feedback não necessariamente está associado a uma mensagem. Nos melhores casos, não está.
 
