@@ -58,3 +58,9 @@ nav:
     - Conteúdo e Usabilidade em Textos: topics/grupo4.md
     - Formulários, Modais e Feedback de Erros: topics/grupo5.md
   - Heurísticas: heuristicas.md
+
+markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: false
+      clickable_checkbox: true
