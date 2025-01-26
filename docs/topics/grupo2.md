@@ -98,7 +98,7 @@ Garantir alturas adequadas para áreas clicáveis melhora a usabilidade em dispo
 </div>
 
 
-
+## Referências
 <a id="referencia-1" href="https://ceweb.br/projetos/bruk/guia-html/#introducao" target="_blank">1. CEWEB.br. BRUK - Guia HTML, seção: Semântica</a>. Disponível em: https://ceweb.br/projetos/bruk/guia-html/#introducao. Acesso em: 25 Jan. 2025.
 
 <a id="referencia-2" href="https://ceweb.br/projetos/bruk/guia-html/#estrutura-basica-de-um-documento-html" target="_blank">2. CEWEB.br. BRUK - Guia HTML, seção: Semântica</a>. Disponível em: https://ceweb.br/projetos/bruk/guia-html/#estrutura-basica-de-um-documento-html. Acesso em: 25 Jan. 2025.
