@@ -6,11 +6,11 @@ repo_url: "https://github.com/joseandre25/IHC-G02-Guia-De-Acessibilidade"
 nav:
   - Introdução: index.md
   - Guia de Desenvolvimento: 
-    - Grupo 01 - Acessibilidade em Navegação e Design: topics/grupo1.md
-    - Grupo 02 - Semântica, Estrutura da Página e HTML: topics/grupo2.md
-    - Grupo 03 - Testes, Checklists e Recursos: topics/grupo3.md
-    - Grupo 04 - Conteúdo e Usabilidade em Textos: topics/grupo4.md
-    - Grupo 05 - Formulários, Modais e Feedback de Erros: topics/grupo5.md
+    - Acessibilidade em Navegação e Design: topics/grupo1.md
+    - Semântica, Estrutura da Página e HTML: topics/grupo2.md
+    - Testes, Checklists e Recursos: topics/grupo3.md
+    - Conteúdo e Usabilidade em Textos: topics/grupo4.md
+    - Formulários, Modais e Feedback de Erros: topics/grupo5.md
   - Heurísticas: heuristicas.md
 
 theme:
