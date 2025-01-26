@@ -225,14 +225,3 @@ A escolha das cores de um site deve ser feita com cuidado, pois as pessoas enxer
 </a>. Disponível em: <a href="https://www.w3c.br/traducoes/wcag/wcag21-pt-BR/#use-of-color" target="_blank" aria-label="Link para WCAG 2.1 - Uso de Cor (Seção 1.4.1). Abre em uma nova aba">
   https://www.w3c.br/traducoes/wcag/wcag21-pt-BR/#use-of-color
 </a>. Acesso em 24 Jan. 2025.
-
-<style>
-  a {
-    color: #1a0dab; /* Cor do link */
-    text-decoration: underline; /* Sublinhado para indicar link */
-  }
-  a:focus {
-    outline: 2px solid #0056b3; /* Contorno visível ao focar */
-    outline-offset: 2px;
-  }
-</style>
