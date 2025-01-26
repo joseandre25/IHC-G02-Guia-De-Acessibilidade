@@ -1,5 +1,4 @@
-# Guia de Acessibilidade - Grupo 3: Testes, Checklists e Recursos
-
+# Guia de Acessibilidade 
 <style>
   button:not(#aumentar):not(#diminuir) {
     border: 1px solid black;
