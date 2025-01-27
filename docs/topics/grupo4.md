@@ -80,32 +80,28 @@ Animações podem ser distrativas ou prejudiciais para pessoas com epilepsia ou 
 
 ---
 
-## 5. Redimensionamento de Texto
+## 5. Orientação
 
-- [ ] Usuários consegue redimensionar textos sem perda de funcionalidade.
+- [ ] Usuários não dependem de uma determinação orientação de tela para acessar uma determinada função
 
-<button title="Conceito redimensionamento de texto" class="botao-conceito" onclick="let el = document.getElementById('rediTexto'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
+<button title="Conceito Orientação" class="botao-conceito" onclick="let el = document.getElementById('rediTexto'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
   Conceito 📖
 </button>
 <div id="rediTexto" style="display: none;">
- Pessoas com deficiência visual, como baixa visão, daltonismo ou outras condições, podem ter dificuldades significativas com tamanhos de fonte fixos. A capacidade de aumentar ou diminuir o tamanho da fonte permite que esses usuários ajustem o texto para um nível que lhes seja confortável e legível, garantindo o acesso à informação e a inclusão digital. <a href="#referencia-4">[4]</a>
+ Em resumo, não depender da orientação da tela é fundamental para criar interfaces inclusivas, usáveis e que proporcionam uma boa experiência de usuário em uma variedade de dispositivos e contextos. Ao seguir as práticas de design responsivo e priorizar a flexibilidade da interface, os desenvolvedores podem garantir que seus aplicativos e sites sejam acessíveis e agradáveis de usar para todos. <a href="#referencia-4">[4]</a>
 </div>
 
 ---
 
-## 6. Identificação e Sugestões de Erro
+## 6. Idioma da página
 
-- [ ] Os erros em formulários são destacados de forma visual e textual.
+- [ ] Idioma da página deve ser definido para que os tradutores consiga identificar corretamente o idioma.
 
-- [ ] Quando ocorre um erro, é existem sugestões para corrigir os erros.
-
-- [ ] As mensagens de erro são compreensíveis para todos os públicos.
-
-<button title="Conceito identificação e sugestão de erro" class="botao-conceito" onclick="let el = document.getElementById('erros'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
+<button title="Idioma da página" class="botao-conceito" onclick="let el = document.getElementById('idioma'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
   Conceito 📖
 </button>
-<div id="erros" style="display: none;">
- Pessoas com deficiência, idosos ou usuários com pouca familiaridade com tecnologia podem encontrar dificuldades específicas na interação com sistemas digitais. A análise de erros permite identificar barreiras de acessibilidade e desenvolver soluções inclusivas. <a href="#referencia-5">[5]</a>
+<div id="idioma" style="display: none;">
+ Declarar o idioma da tela é fundamental para a acessibilidade, especialmente para usuários que dependem de leitores de tela. Isso garante que o conteúdo seja lido com a pronúncia e entonação corretas, proporcionando uma experiência mais natural e compreensível. <a href="#referencia-5">[5]</a>
 </div>
 
 
@@ -129,16 +125,16 @@ Animações podem ser distrativas ou prejudiciais para pessoas com epilepsia ou 
   https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions
 </a>. Acesso em 24 Jan. 2025.
 
-<a id="referencia-4" href="https://www.w3.org/WAI/WCAG22/Understanding/resize-text" target="_blank" aria-label="WCAG 2.2 - Redimensionamento de texto">
-  4. WCAG 2.2 - Redimensionamento de texto
-</a>. Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/resize-text" target="_blank" aria-label="Link para WCAG 2.2 - Redimensionamento de texto">
-  https://www.w3.org/WAI/WCAG22/Understanding/resize-text
+<a id="referencia-4" href="https://www.w3.org/WAI/WCAG22/Understanding/orientation" target="_blank" aria-label="WCAG 2.2 - Orientação">
+  4. WCAG 2.2 - Orientação
+</a>. Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/orientation" target="_blank" aria-label="Link para WCAG 2.2 - Orientação">
+  https://www.w3.org/WAI/WCAG22/Understanding/orientation
 </a>. Acesso em 24 Jan. 2025.
 
-<a id="referencia-5" href="https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data" target="_blank" aria-label="WCAG 2.2 - Detecção de erros">
-  5. WCAG 2.2 - Detecção de erros
-</a>. Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data" target="_blank" aria-label="Link para WCAG 2.2 - Detecção de erros">
-  https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data
+<a id="referencia-5" href="https://www.w3.org/WAI/WCAG22/Understanding/language-of-page" target="_blank" aria-label="WCAG 2.2 - Idioma">
+  5. WCAG 2.2 - Idioma
+</a>. Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/language-of-page" target="_blank" aria-label="Link para WCAG 2.2 - Idioma">
+  https://www.w3.org/WAI/WCAG22/Understanding/language-of-page
 </a>. Acesso em 24 Jan. 2025.
 
 <a id="referencia-6" href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced" target="_blank" aria-label="WCAG 2.2 - Fontes">
