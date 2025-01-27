@@ -1,6 +1,6 @@
 # Guia de Acessibilidade 
 <style>
-  button:not(#aumentar):not(#diminuir) {
+  .botao-conceito {
     border: 1px solid black;
     padding: 5px 10px;
     border-radius: 10px;
@@ -11,7 +11,7 @@
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s, transform 0.3s;
   }
-  button:not(#aumentar):not(#diminuir):hover {
+  .botao-conceito:hover {
     background-color: #0056b3;
     transform: scale(1.05);
   }

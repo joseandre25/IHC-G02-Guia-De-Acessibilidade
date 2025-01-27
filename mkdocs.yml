@@ -12,6 +12,7 @@ nav:
     - Conteúdo e Usabilidade em Textos: topics/grupo4.md
     - Formulários, Modais e Feedback de Erros: topics/grupo5.md
   - Heurísticas: heuristicas.md
+  - Ferramentas: ferramentas.md
 
 theme:
   name: material  

@@ -6,30 +6,32 @@
 - [ ] Disponibilizar transcrições de áudios e legendas em vídeos.
 
 <style>
-  button:not(#aumentar):not(#diminuir) {
+  .botao-conceito {
     border: 1px solid black;
     padding: 5px 10px;
-    border-radius: 10px; /* Adiciona cantos arredondados */
-    background-color: #4051B5; /* Cor de fundo */
-    color: white; /* Cor do texto */
-    font-size: 16px; /* Tamanho da fonte */
-    cursor: pointer; /* Cursor de ponteiro */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+    border-radius: 10px;
+    background-color: #4051B5;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s, transform 0.3s;
   }
-  button:not(#aumentar):not(#diminuir):hover {
-    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
-    transform: scale(1.05); /* Aumenta ligeiramente o botão */
+  .botao-conceito:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
   }
 </style>
 
-<button title="alo" class="botao-conceito" onclick="let el = document.getElementById('diversosFormatos'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
+<button title="Conceito conteúdos em diversos formatos" class="botao-conceito" onclick="let el = document.getElementById('diversosFormatos'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
   Conceito 📖
 </button>
 <div id="diversosFormatos" style="display: none;">
 É importante diversificar os formatos de conteúdo para garantir que pessoas com diferentes habilidades possam acessar informações. Quando possível, utilize diversos para que atenda um demanda maior de público. <a href="#referencia-1">[1]</a> <a href="#referencia-2">[2]</a>
 
 </div>
+
+---
 
 ## 2. Blocos de Texto e Parágrafos
 
@@ -39,13 +41,14 @@
 
 - [ ] Foi utilizado listas quando possível, para facilitar a leitura.
 
-<button onclick="let el = document.getElementById('paragrafos'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
+<button title="Conceito blocos de texto e parágrafos" class="botao-conceito" onclick="let el = document.getElementById('paragrafos'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
   Conceito 📖
 </button>
 <div id="paragrafos" style="display: none;">
 Textos longos frequentemente apresentam uma estrutura complexa, com múltiplos parágrafos, subtópicos e argumentos interligados. Pessoas com dificuldades de leitura ou organização cognitiva podem ter dificuldade em identificar a estrutura principal, seguir o fluxo do texto e entender a relação entre as diferentes partes. <a href="#referencia-2">[2]</a>
 </div>
 
+---
 
 ## 3. Fontes
 
@@ -55,34 +58,40 @@ Textos longos frequentemente apresentam uma estrutura complexa, com múltiplos p
 
 - [ ] Foi Garantido espaçamento adequado entre linhas e caracteres.
 
-<button onclick="let el = document.getElementById('fonte'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
+<button title="Conceito Fontes" class="botao-conceito" onclick="let el = document.getElementById('fonte'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
   Conceito 📖
 </button>
 <div id="fonte" style="display: none;">
 Uma fonte legível e agradável melhora a experiência do usuário, tornando a leitura mais confortável e eficiente. Isso resulta em maior engajamento, satisfação e tempo de permanência na página. Também torna a leitura mais rápida e fácil que permite que os usuários processem informações de forma mais eficiente, aumentando sua produtividade. <a href="#referencia-6">[6]</a>
 </div>
 
+---
+
 ## 4. Animações
 
 - [ ] As animações não-essencias podem ser desativadas
 
-<button onclick="let el = document.getElementById('animacoes'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
+<button title="Conceito animações" class="botao-conceito" onclick="let el = document.getElementById('animacoes'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
   Conceito 📖
 </button>
 <div id="animacoes" style="display: none;">
 Animações podem ser distrativas ou prejudiciais para pessoas com epilepsia ou problemas de atenção. Para mitigar problemas, é recomendado permitir que o usuário pause ou desative animações. <a href="#referencia-3">[3]</a>
 </div>
 
+---
+
 ## 5. Redimensionamento de Texto
 
 - [ ] Usuários consegue redimensionar textos sem perda de funcionalidade.
 
-<button onclick="let el = document.getElementById('rediTexto'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
+<button title="Conceito redimensionamento de texto" class="botao-conceito" onclick="let el = document.getElementById('rediTexto'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
   Conceito 📖
 </button>
 <div id="rediTexto" style="display: none;">
  Pessoas com deficiência visual, como baixa visão, daltonismo ou outras condições, podem ter dificuldades significativas com tamanhos de fonte fixos. A capacidade de aumentar ou diminuir o tamanho da fonte permite que esses usuários ajustem o texto para um nível que lhes seja confortável e legível, garantindo o acesso à informação e a inclusão digital. <a href="#referencia-4">[4]</a>
 </div>
+
+---
 
 ## 6. Identificação e Sugestões de Erro
 
@@ -92,7 +101,7 @@ Animações podem ser distrativas ou prejudiciais para pessoas com epilepsia ou 
 
 - [ ] As mensagens de erro são compreensíveis para todos os públicos.
 
-<button onclick="let el = document.getElementById('erros'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
+<button title="Conceito identificação e sugestão de erro" class="botao-conceito" onclick="let el = document.getElementById('erros'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
   Conceito 📖
 </button>
 <div id="erros" style="display: none;">
