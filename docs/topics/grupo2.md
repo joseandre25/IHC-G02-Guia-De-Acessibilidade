@@ -88,28 +88,17 @@ Incluir textos importantes em imagens pode impedir a acessibilidade, pois leitor
 Um CSS bem configurado que respeita a semântica HTML preserva a hierarquia visual e estrutural da página. Isso é crucial para usuários que dependem de leitores de tela ou outras tecnologias assistivas, garantindo que a navegação seja intuitiva. <a href="https://ceweb.br/projetos/bruk/guia-html/#introducao" target="_blank">Guia de Boas Práticas UK-BR</a> <a href="#referencia-6">[6]</a>.
 </div>
 
----
-
-## 7. Atalhos de Navegação
- - [ ] Implemente atalhos de teclado para facilitar o acesso a áreas importantes da página, como menus ou campos de busca.
-
- <button title="Conceito atalhos de navegação" class="botao-conceito" onclick="let el = document.getElementById('atalhos-conceito'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
-  Conceito 📖
-</button>
-<div id="atalhos-conceito" style="display: none;">
- Atalhos de teclado tornam o site mais acessível para pessoas com deficiência motora ou que preferem navegar sem o uso de um mouse. Eles também agilizam a navegação para usuários avançados..<a href="https://ceweb.br/projetos/bruk/guia-html/#introducao" target="_blank">Guia de Boas Práticas UK-BR</a> <a href="#referencia-7"/>[7]</a>.
-</div>
 
 ---
 
-## 8. Alturas
+## 7. Alturas
  - [ ] Certifique-se de que os elementos na página tenham altura suficiente para facilitar cliques e leitura, especialmente em dispositivos móveis.
 
  <button title="Conceito alturas" class="botao-conceito" onclick="let el = document.getElementById('altura-conceito'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
   Conceito 📖
 </button>
 <div id="altura-conceito" style="display: none;">
-Garantir alturas adequadas para áreas clicáveis melhora a usabilidade em dispositivos móveis e para pessoas com dificuldade motora. Isso evita cliques acidentais e torna a interação com a página mais confortável.<a href="https://ceweb.br/projetos/bruk/guia-html/#introducao" target="_blank">Guia de Boas Práticas UK-BR</a> <a href="#referencia-8">[8]</a>.
+Garantir alturas adequadas para áreas clicáveis melhora a usabilidade em dispositivos móveis e para pessoas com dificuldade motora. Isso evita cliques acidentais e torna a interação com a página mais confortável.<a href="https://ceweb.br/projetos/bruk/guia-html/#introducao" target="_blank">Guia de Boas Práticas UK-BR</a> <a href="#referencia-8">[7]</a>.
 </div>
 
 
@@ -126,6 +115,4 @@ Garantir alturas adequadas para áreas clicáveis melhora a usabilidade em dispo
 
 <a id="referencia-6" href="https://ceweb.br/projetos/bruk/guia-html/#praticas-de-acessibilidade" target="_blank">6. CEWEB.br. BRUK - Guia HTML, seção:CSS e a Árvore de Acessibilidade </a>. Disponível em: https://ceweb.br/projetos/bruk/guia-html/#praticas-de-acessibilidade. Acesso em: 25 Jan. 2025.
 
-<a id="referencia-7" href="https://ceweb.br/projetos/bruk/guia-html/#links-e-navegacao" target="_blank">7. CEWEB.br. BRUK - Guia HTML, seção: Atalhos de navegação</a>. Disponível em: https://ceweb.br/projetos/bruk/guia-html/#links-e-navegacao. Acesso em: 25 Jan. 2025.
-
-<a id="referencia-8" href="https://ceweb.br/projetos/bruk/guia-html/#atalhos-de-teclado" target="_blank">8. CEWEB.br. BRUK - Guia HTML, seção: Altura</a>. Disponível em: https://ceweb.br/projetos/bruk/guia-html/#introducao. Acesso em: 25 Jan. 2025.
+<a id="referencia-8" href="https://ceweb.br/projetos/bruk/guia-html/#atalhos-de-teclado" target="_blank">7. CEWEB.br. BRUK - Guia HTML, seção: Altura</a>. Disponível em: https://ceweb.br/projetos/bruk/guia-html/#introducao. Acesso em: 25 Jan. 2025.

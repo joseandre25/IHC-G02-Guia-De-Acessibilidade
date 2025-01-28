@@ -46,34 +46,7 @@ As caixas de diálogos modais devem puxar o foco do usuario para si enquanto est
 
 ---
 
-## 3. Contraste de cor   
-- [ ] <b>Contraste suficiente:</b> Textos em geral devem ter contraste suficiente para boa vizibilidade
-- [ ] <b>Contraste proporcional ao tamanho do texto:</b> Quanto menor o texto maior deve ser o contraste
-- [ ] <b>Interface de usuário:</b> Compnetes ativos os quais usuário podem interagir devem ter contraste suficiente para boa vizibilidade
-
-<button title="Conceito contraste de cor" class="botao-conceito" onclick="let el = document.getElementById('Contraste'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
-  Conceito 📖
-</button>
-<div id="Contraste" style="display: none;">
-Um contraste de cor adequado ajuda aos mais diversos tipos de usuários a melhor interagir com o sistema, alem de diminuir cansaço e chance do usuário perder alguma informação ou modo de interação com a interface. <a href="#referencia-3">[3]</a>
-</div>
-
----
-
-## 4. Foco visível e ordem de foco  
-- [ ] <b>Navegação por teclado em ordem certa:</b> a ordem da navegação por botões do teclado deve seguir a ordem de vizualização
-- [ ] <b>Quais elementos tem foco de teclado:</b> quanto mais elementos melhor, principalmente botões para mudar de página, controle de midia e botões de menu ou configuração
-
-<button title="Conceito foco visível e ordem de foco" class="botao-conceito" onclick="let el = document.getElementById('Foco'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
-  Conceito 📖
-</button>
-<div id="Foco" style="display: none;">
-Projetar um site pensando em navegação por teclado ajuda aqueles com visão comprometida e tambem usuários com alguma deficiencia que os impeçam de utilizar um mouse de maneira efetiva e precisa. Tambem ajuda usuarios a navegarem o site com mais agilidade em certos casos. <a href="#referencia-4">[4]</a>
-</div>
-
----
-
-## 5. Wireframes 
+## 4. Wireframes 
 - [ ] <b>Facilidade de navegação:</b> usuários devem navegar com facilidadde e facilmente saber onde estão a qualquer momento
 - [ ] <b>Estrutura de páginas:</b> estrutura deve ser facilmente entendível para os usuários
 - [ ] <b>Conteudos de importancia claros:</b> os conteudos mais relevantes devem ser facilmente reconhecíveis, especialmente elementos interativos
@@ -83,12 +56,12 @@ Projetar um site pensando em navegação por teclado ajuda aqueles com visão co
   Conceito 📖
 </button>
 <div id="Wireframes" style="display: none;">
-O usuário deve ser capaz de se localizar dentro da página a qualquer momento e deve ser capaz de entender a ordem dos elementos e como facilmente chegar a onde ele quer acessar. <a href="#referencia-5">[5]</a>
+O usuário deve ser capaz de se localizar dentro da página a qualquer momento e deve ser capaz de entender a ordem dos elementos e como facilmente chegar a onde ele quer acessar. <a href="#referencia-3">[3]</a>
 </div>
 
 ---
 
-## 6. Links e botões  
+## 4. Links e botões  
 - [ ] <b>Links devem ser sinalizados:</b> deve ser obvio links clicáveis
 - [ ] <b>Botões devem ter aparencia de clicaveis:</b> botões devem ser obvios, alem de seguirem um padrão para evitar confusão
 - [ ] <b>tamanho de botões:</b> botões devem ter tamanho apropiado para serem clicados e ao mesmo tempo não cobrirem outros conteudos
@@ -97,12 +70,12 @@ O usuário deve ser capaz de se localizar dentro da página a qualquer momento e
   Conceito 📖
 </button>
 <div id="Links" style="display: none;">
-Elementos interativos como links e botões devem ser destacados de forma sua funcionalidade estar aparente, alem de deverem ser padronizados para que o usuário sempre saiba o que esperar quando for interagir com algo. <a href="#referencia-6">[6]</a>
+Elementos interativos como links e botões devem ser destacados de forma sua funcionalidade estar aparente, alem de deverem ser padronizados para que o usuário sempre saiba o que esperar quando for interagir com algo. <a href="#referencia-4">[4]</a>
 </div>
 
 ---
 
-## 7. Pausar, parar ou ocultar conteúdo
+## 5. Pausar, parar ou ocultar conteúdo
 - [ ] <b>Autoplay de mídia:</b> evitar usar mídia que comece automaticamente
 - [ ] <b>Pausar mídia:</b> toda midia deve ser pausavel se possivel
 - [ ] <b>Mutar mídia:</b> toda midia deve ser possivel de desligar o som
@@ -112,7 +85,7 @@ Elementos interativos como links e botões devem ser destacados de forma sua fun
   Conceito 📖
 </button>
 <div id="Pausar" style="display: none;">
-Midias devem ser possiveis de desligar para evitar cansaço e sobreccarregamento sensorial, expecialmente para pessoas com problemas sensoriais e neurologicos, que são mais vulneraveis a isso. <a href="#referencia-7">[7]</a>
+Midias devem ser possiveis de desligar para evitar cansaço e sobreccarregamento sensorial, expecialmente para pessoas com problemas sensoriais e neurologicos, que são mais vulneraveis a isso. <a href="#referencia-5">[5]</a>
 </div>
 
 ---
@@ -123,12 +96,8 @@ Midias devem ser possiveis de desligar para evitar cansaço e sobreccarregamento
 
 <a id="referencia-2" href="https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/" target="_blank">2. w3c</a>. Disponível em: https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/. Acesso em: 25 Jan. 2025.
 
-<a id="referencia-3" href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html" target="_blank">3. w3c</a>. Disponível em: https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html. Acesso em: 25 Jan. 2025.
+<a id="referencia-3" href="https://accessibility.deque.com/applying-accessibility-heuristics-to-a-wireframe" target="_blank">3. deque</a>. Disponível em: https://accessibility.deque.com/applying-accessibility-heuristics-to-a-wireframe. Acesso em: 25 Jan. 2025.
 
-<a id="referencia-4" href="https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html" target="_blank">4. w3c</a>. Disponível em: https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html. Acesso em: 25 Jan. 2025.
+<a id="referencia-4" href="https://www.w3.org/TR/WCAG21/" target="_blank">4. w3c</a>. Disponível em: https://www.w3.org/TR/WCAG21/. Acesso em: 25 Jan. 2025.
 
-<a id="referencia-5" href="https://accessibility.deque.com/applying-accessibility-heuristics-to-a-wireframe" target="_blank">5. deque</a>. Disponível em: https://accessibility.deque.com/applying-accessibility-heuristics-to-a-wireframe. Acesso em: 25 Jan. 2025.
-
-<a id="referencia-6" href="https://www.w3.org/TR/WCAG21/" target="_blank">6. w3c</a>. Disponível em: https://www.w3.org/TR/WCAG21/. Acesso em: 25 Jan. 2025.
-
-<a id="referencia-7" href="https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html" target="_blank">7. w3c</a>. Disponível em: https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html. Acesso em: 25 Jan. 2025.
+<a id="referencia-5" href="https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html" target="_blank">5. w3c</a>. Disponível em: https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html. Acesso em: 25 Jan. 2025.
