@@ -23,10 +23,10 @@
   }
 </style>
 
-<button title="Conceito formulários" class="botao-conceito" onclick="let el = document.getElementById('diversosFormatos'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
+<button title="Conceito formulários" class="botao-conceito" onclick="let el = document.getElementById('formulários'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
   Conceito 📖
 </button>
-<div id="diversosFormatos" style="display: none;">
+<div id="formulários" style="display: none;">
 Forulários devem ser de facil preenchimento e, no caso de erros, devem evitar retrabalho ao maximo e explicar a todo momento para o usuário o que aconteceu. <a href="#referencia-1">[1]</a>
 
 </div>
@@ -37,10 +37,10 @@ Forulários devem ser de facil preenchimento e, no caso de erros, devem evitar r
 - [ ] <b>Tamanho de diálogos modais:</b> janelas de pop up de diálogos modais devem ter tamanho apropiado independente do tamanho da tela
 - [ ] <b>Em telas menores:</b> devem cobrir toda a tela de modo a impedir interações acidentais com o resto da página 
 
-<button title="Conceito modais" class="botao-conceito" onclick="let el = document.getElementById('paragrafos'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
+<button title="Conceito modais" class="botao-conceito" onclick="let el = document.getElementById('Modais'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
   Conceito 📖
 </button>
-<div id="paragrafos" style="display: none;">
+<div id="Modais" style="display: none;">
 As caixas de diálogos modais devem puxar o foco do usuario para si enquanto estiverem sendo usadas, devendo ser bloqueada a interação com o resto do site para evitar erros por parte do usuário. <a href="#referencia-2">[2]</a>
 </div>
 
@@ -51,10 +51,10 @@ As caixas de diálogos modais devem puxar o foco do usuario para si enquanto est
 - [ ] <b>Contraste proporcional ao tamanho do texto:</b> Quanto menor o texto maior deve ser o contraste
 - [ ] <b>Interface de usuário:</b> Compnetes ativos os quais usuário podem interagir devem ter contraste suficiente para boa vizibilidade
 
-<button title="Conceito contraste de cor" class="botao-conceito" onclick="let el = document.getElementById('paragrafos'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
+<button title="Conceito contraste de cor" class="botao-conceito" onclick="let el = document.getElementById('Contraste'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
   Conceito 📖
 </button>
-<div id="paragrafos" style="display: none;">
+<div id="Contraste" style="display: none;">
 Um contraste de cor adequado ajuda aos mais diversos tipos de usuários a melhor interagir com o sistema, alem de diminuir cansaço e chance do usuário perder alguma informação ou modo de interação com a interface. <a href="#referencia-3">[3]</a>
 </div>
 
@@ -64,10 +64,10 @@ Um contraste de cor adequado ajuda aos mais diversos tipos de usuários a melhor
 - [ ] <b>Navegação por teclado em ordem certa:</b> a ordem da navegação por botões do teclado deve seguir a ordem de vizualização
 - [ ] <b>Quais elementos tem foco de teclado:</b> quanto mais elementos melhor, principalmente botões para mudar de página, controle de midia e botões de menu ou configuração
 
-<button title="Conceito foco visível e ordem de foco" class="botao-conceito" onclick="let el = document.getElementById('paragrafos'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
+<button title="Conceito foco visível e ordem de foco" class="botao-conceito" onclick="let el = document.getElementById('Foco'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
   Conceito 📖
 </button>
-<div id="paragrafos" style="display: none;">
+<div id="Foco" style="display: none;">
 Projetar um site pensando em navegação por teclado ajuda aqueles com visão comprometida e tambem usuários com alguma deficiencia que os impeçam de utilizar um mouse de maneira efetiva e precisa. Tambem ajuda usuarios a navegarem o site com mais agilidade em certos casos. <a href="#referencia-4">[4]</a>
 </div>
 
@@ -79,10 +79,10 @@ Projetar um site pensando em navegação por teclado ajuda aqueles com visão co
 - [ ] <b>Conteudos de importancia claros:</b> os conteudos mais relevantes devem ser facilmente reconhecíveis, especialmente elementos interativos
 - [ ] <b>Mensagens de erro:</b> em casos de erro do sistema, deve ser especificado o que aconteceu para o usuário
 
-<button title="Conceito wireframes" class="botao-conceito" onclick="let el = document.getElementById('paragrafos'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
+<button title="Conceito wireframes" class="botao-conceito" onclick="let el = document.getElementById('Wireframes'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
   Conceito 📖
 </button>
-<div id="paragrafos" style="display: none;">
+<div id="Wireframes" style="display: none;">
 O usuário deve ser capaz de se localizar dentro da página a qualquer momento e deve ser capaz de entender a ordem dos elementos e como facilmente chegar a onde ele quer acessar. <a href="#referencia-5">[5]</a>
 </div>
 
@@ -93,10 +93,10 @@ O usuário deve ser capaz de se localizar dentro da página a qualquer momento e
 - [ ] <b>Botões devem ter aparencia de clicaveis:</b> botões devem ser obvios, alem de seguirem um padrão para evitar confusão
 - [ ] <b>tamanho de botões:</b> botões devem ter tamanho apropiado para serem clicados e ao mesmo tempo não cobrirem outros conteudos
 
-<button title="Conceito links e botões" class="botao-conceito" onclick="let el = document.getElementById('paragrafos'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
+<button title="Conceito links e botões" class="botao-conceito" onclick="let el = document.getElementById('Links'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
   Conceito 📖
 </button>
-<div id="paragrafos" style="display: none;">
+<div id="Links" style="display: none;">
 Elementos interativos como links e botões devem ser destacados de forma sua funcionalidade estar aparente, alem de deverem ser padronizados para que o usuário sempre saiba o que esperar quando for interagir com algo. <a href="#referencia-6">[6]</a>
 </div>
 
@@ -108,10 +108,10 @@ Elementos interativos como links e botões devem ser destacados de forma sua fun
 - [ ] <b>Mutar mídia:</b> toda midia deve ser possivel de desligar o som
 - [ ] <b>Evitar uso de mídia que segue o usuário:</b> evitar usar ou permitir que seja fechado
 
-<button title="Conceito pausar, parar ou ocultar conteúdo" class="botao-conceito" onclick="let el = document.getElementById('paragrafos'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
+<button title="Conceito pausar, parar ou ocultar conteúdo" class="botao-conceito" onclick="let el = document.getElementById('Pausar'); el.style.display = el.style.display === 'none' ? 'block' : 'none';">
   Conceito 📖
 </button>
-<div id="paragrafos" style="display: none;">
+<div id="Pausar" style="display: none;">
 Midias devem ser possiveis de desligar para evitar cansaço e sobreccarregamento sensorial, expecialmente para pessoas com problemas sensoriais e neurologicos, que são mais vulneraveis a isso. <a href="#referencia-7">[7]</a>
 </div>
 
